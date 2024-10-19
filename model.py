@@ -1,7 +1,7 @@
 import torch
 import os
-from transformer_network import GNT
-from feature_network import ResUNet
+from orchid_gnt.transformer_network import GNT
+from orchid_gnt.feature_network import ResUNet
 
 def de_parallel(model):
     return model.module if hasattr(model, "module") else model
