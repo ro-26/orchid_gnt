@@ -1,6 +1,6 @@
 import torch
 from collections import OrderedDict
-from render_ray import render_rays
+from orchid_gnt.render_ray import render_rays
 
 
 def render_single_image(
