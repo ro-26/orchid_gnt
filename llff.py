@@ -11,7 +11,7 @@ from orchid_gnt.llff_data_utils import load_llff_data, batch_parse_llff_poses
 
 class LLFFDataset(Dataset):
     def __init__(self, mode, **kwargs):
-        base_dir = "./data/real_iconic_noface/")
+        base_dir = "./data/real_iconic_noface/"
         self.mode = mode  # train / test / validation
         self.num_source_views = 10
         self.render_rgb_files = []
