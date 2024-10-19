@@ -5,8 +5,8 @@ import torch
 from torch.utils.data import Dataset
 import sys
 
-from data_utils import random_crop, random_flip, get_nearest_pose_ids
-from llff_data_utils import load_llff_data, batch_parse_llff_poses
+from orchid_gnt.data_utils import random_crop, random_flip, get_nearest_pose_ids
+from orchid_gnt.llff_data_utils import load_llff_data, batch_parse_llff_poses
 
 
 class LLFFDataset(Dataset):
