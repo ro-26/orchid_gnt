@@ -26,7 +26,7 @@ class GNTModel(object):
         self.lrate_decay_factor=0.5
         self.no_reload=False
         self.ckpt_path=""
-        self.distributed=True
+        self.distributed=False
         # create coarse GNT
         self.net_coarse = GNT(
             in_feat_ch=self.coarse_feat_dim,
